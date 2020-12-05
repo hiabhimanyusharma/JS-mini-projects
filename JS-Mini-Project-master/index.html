@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Colour Picker</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h4>Colour Changer</h4></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Simple</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hex.html" class="nav-link">Hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center" id ="row1">
+        <p class="h3">The background colour is : <span></span><strong class="colour">rgb(250, 235, 215)</strong></span> </p>
+    </div>
+    <div class="row justify-content-center">
+        <button type="button" class="btn btn-dark" id="btn">Click Me!</button>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
