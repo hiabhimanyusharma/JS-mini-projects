@@ -1,0 +1,32 @@
+body {
+    color: blanchedalmond;
+}
+
+.parent {
+    height: 100vh;
+    background-color: #95adbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    padding: 3%;
+    background-color: #574f7d;
+    width: 65%;
+}
+
+.row {
+    justify-content: center;
+    text-align: center;
+}
+
+.img-save {
+    width: 100px;
+    height: auto;
+}
+
+#img {
+    border-radius: 50%;
+    width: inherit;
+}
